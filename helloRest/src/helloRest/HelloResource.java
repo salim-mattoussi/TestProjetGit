@@ -12,7 +12,7 @@ public class HelloResource {
 	//@GET
 	//@Produces("text/plain")
 	public String sayHello() {
-		return "hello ";
+		return "hello from methode 1 ";
 	}
 	@GET
 	@Path(value="{fname}/{lname}")
